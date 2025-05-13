@@ -1,5 +1,5 @@
 <?php
-    include ("conexion.php")
+    include ("conexion.php");
     $conn = conectar();
     $ine = $_POST['ine'];
     $nombre = $_POST['nombre'];
